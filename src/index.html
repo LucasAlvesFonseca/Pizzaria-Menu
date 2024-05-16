@@ -1,19 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/responsive.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    
-    <title>Document</title>
-</head>
-<body>
-    
-
-
-
-    <script src="./scripts/index.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./styles/reset.css" />
+        <link rel="stylesheet" href="./styles/responsive.css" />
+        <link rel="stylesheet" href="./styles/style.css" />
+        <link rel="stylesheet" href="./styles/font.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="div_container">
+            <div class="div_container_logar div_container_default">
+                <h2>Entrar na conta</h2>
+                <ul>
+                    <li>
+                        <a href="#" class="a_icon"><i class="fa-brands fa-google" style="color: #ffffff"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" class="a_icon"><i class="fa-brands fa-facebook" style="color: #ffffff"></i></a>
+                    </li>
+                </ul>
+                <form class="form_pizza">
+                    <p>ou use seu email e senha</p>
+                    <input type="email" name="email" id="email" placeholder="Email" />
+                    <input type="password" name="password" id="password" placeholder="Senha" />
+                    <a href="#">Esqueceu sua senha?</a>
+                    <button class="button_class">Logar</button>
+                </form>
+            </div>
+            <div class="div_container_criarConta div_container_default">
+                <h2>Criar conta</h2>
+                <ul>
+                    <li>
+                        <a href="#" class="a_icon"><i class="fa-brands fa-google" style="color: #ffffff"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" class="a_icon"><i class="fa-brands fa-facebook" style="color: #ffffff"></i></a>
+                    </li>
+                </ul>
+                <form class="form_pizza">
+                    <p>ou use seu email para cadastrar-se</p>
+                    <input type="text" name="nome" id="nome" placeholder="Nome" />
+                    <input type="email" name="email" id="email" placeholder="Email" />
+                    <input type="password" name="password" id="password" placeholder="Senha" />
+                    <a href="#">Esqueceu sua senha?</a>
+                    <button class="button_class">Logar</button>
+                </form>
+            </div>
+            <div class="div_container_sideRegistrar div_container_side">
+                <div id="id_div_container_sideRegistrar">
+                    <h2>Seja bem vindo!</h2>
+                    <p>Registre com seus dados pessoais para aproveitar todo o site.</p>
+                    <button id="button_register">Registrar-se</button>
+                </div>
+            </div>
+            <div class="div_container_sideLogar div_container_side">
+                <div id="id_div_container_sideLogar">
+                    <h2>Bem vindo!</h2>
+                    <p>Entre com seus dados pessoais para aproveitar todo o site.</p>
+                    <button id="button_login">Logar</button>
+                </div>
+            </div>
+        </div>
+        <script src="./scripts/index.js"></script>
+    </body>
 </html>
